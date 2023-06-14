@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "related_parties",
+  "info": {
+    "singularName": "related-party",
+    "pluralName": "related-parties",
+    "displayName": "RelatedParty"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "referredType": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}
