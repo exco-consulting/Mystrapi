@@ -4,7 +4,8 @@
   "info": {
     "singularName": "related-party",
     "pluralName": "related-parties",
-    "displayName": "RelatedParty"
+    "displayName": "RelatedParty",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,9 @@
       "type": "string"
     },
     "role": {
+      "type": "string"
+    },
+    "relatedpartyId": {
       "type": "string"
     }
   }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "catalog",
     "pluralName": "catalogs",
-    "displayName": "Catalog"
+    "displayName": "Catalog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,11 @@
         }
       },
       "type": "richtext"
+    },
+    "category_refs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-ref.category-ref"
     }
   }
 }
